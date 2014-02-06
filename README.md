@@ -48,6 +48,16 @@ Finally, initiate the generator:
 $ yo aspnetmvc
 ```
 
+After install, type:
+
+```
+$ grunt serve
+```
+
+And open the project with Visual Studio 2012 / 2013.
+
+Happy coding :)
+
 ### Getting To Know Yeoman
 
 Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
