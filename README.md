@@ -29,7 +29,7 @@ To install generator-aspnetmvc from npm, run:
 $ npm install -g generator-aspnetmvc
 ```
 
-If you want to use Compass:
+If you want to use Compass as a sass compiler:
 
 ```
 $ gem install compass
