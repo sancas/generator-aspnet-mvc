@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<% if (bootstrap) { if (compassBootstrap) { %>
+	<link rel="stylesheet" href="~/bower_components/sass-bootstrap/dist/css/bootstrap.css"><% } else { %>
+	<link rel="stylesheet" href="~/bower_components/bootstrap/dist/css/bootstrap.css"><% } } %>
+	<link rel="stylesheet" href="~/Content/main.css">
+</head>
+<body>
+	@RenderBody()
+	<% if (bootstrap || jquery) { %>
+	<script src="~/bower_components/jquery/jquery.js"></script><% } %><% if (bootstrap) { if (compassBootstrap) {%>
+	<script src="~/bower_components/sass-bootstrap/dist/js/bootstrap.js"></script><% } else { %>
+	<script src="~/bower_components/bootstrap/dist/js/bootstrap.js"></script><% } } %><% if (angular) { %>
+	<script src="~/bower_components/angular/angular.js"></script><% if (resourceModule) { %>
+    <script src="~/bower_components/angular-resource/angular-resource.js"></script><% } %><% if (cookiesModule) { %>
+    <script src="~/bower_components/angular-cookies/angular-cookies.js"></script><% } %><% if (sanitizeModule) { %>
+    <script src="~/bower_components/angular-sanitize/angular-sanitize.js"></script><% } %><% if (routeModule) { %>
+    <script src="~/bower_components/angular-route/angular-route.js"></script><% } } %>
+	<!-- Your javascript files --->
+	@Html.Partial("_Footer")
+</body>
+</html>

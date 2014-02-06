@@ -1,0 +1,9 @@
+.sass-cache
+.tmp
+.suo
+.user
+node_modules
+packages
+<%= projectName %>/bower_components
+<%= projectName %>/bin
+<%= projectName %>/obj

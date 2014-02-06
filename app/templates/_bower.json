@@ -1,0 +1,15 @@
+{
+  "name": "<%= _.slugify(appname) %>",
+  "version": "0.0.0",
+  "dependencies": {<% if (bootstrap || jquery) { %>
+    "jquery": "~1.11.0"<% } %><% if (bootstrap) { if (compassBootstrap) { %>,
+    "sass-bootstrap": "~3.0.2"<% } else { %>
+    "bootstrap": "~3.0.3"<% } } %><% if (angular) { %>,
+    "angular": "1.2.11"<% if (resourceModule) { %>,
+    "angular-resource": "1.2.11"<% } %><% if (cookiesModule) { %>,
+    "angular-cookies": "1.2.11"<% } %><% if (sanitizeModule) { %>,
+    "angular-sanitize": "1.2.11"<% } %><% if (routeModule) { %>,
+    "angular-route": "1.2.11"<% } } %>
+  },
+  "devDependencies": {}
+}
