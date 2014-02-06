@@ -1,12 +1,17 @@
 {
-  "name": "generator-aspnet-mvc",
-  "version": "0.0.0",
+  "name": "generator-aspnetmvc",
+  "version": "0.1.0",
   "description": "A generator for Yeoman",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+	"aspnet",
+	"mvc",
+	"web",
+	"html",
+	"generator"
   ],
-  "homepage": "https://github.com/has606/generator-aspnet-mvc",
-  "bugs": "https://github.com/has606/generator-aspnet-mvc/issues",
+  "homepage": "https://github.com/has606/generator-aspnetmvc",
+  "bugs": "https://github.com/has606/generator-aspnetmvc/issues",
   "author": {
     "name": "Hassakarn C.",
     "email": "has606@gmail.com",
@@ -15,7 +20,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/has606/generator-aspnet-mvc.git"
+    "url": "git://github.com/has606/generator-aspnetmvc.git"
   },
   "scripts": {
     "test": "mocha"
