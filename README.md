@@ -1,4 +1,4 @@
-# generator-ASP.NET MVC [![Build Status](https://secure.travis-ci.org/has606/generator-aspnet-mvc.png?branch=master)](https://travis-ci.org/has606/generator-aspnet-mvc)
+# generator-aspnetmvc
 
 A generator for [Yeoman](http://yeoman.io).
 
@@ -23,16 +23,29 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-ASP.NET MVC from npm, run:
+To install generator-aspnetmvc from npm, run:
 
 ```
-$ npm install -g generator-aspnet-mvc
+$ npm install -g generator-aspnetmvc
+```
+
+If you want to use Compass:
+
+```
+$ gem install compass
+```
+
+Then make a directory to contain your project (this sounds silly, but I always forget):
+
+```
+$ mkdir YourProject
+$ cd YourProject
 ```
 
 Finally, initiate the generator:
 
 ```
-$ yo ASP.NET MVC
+$ yo aspnetmvc
 ```
 
 ### Getting To Know Yeoman
