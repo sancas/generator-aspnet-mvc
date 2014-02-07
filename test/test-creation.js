@@ -12,7 +12,7 @@ describe('ASP.NET MVC generator', function () {
                 return done(err);
             }
 
-            this.app = helpers.createGenerator('ASP.NET MVC:app', [
+            this.app = helpers.createGenerator('aspnetmvc:app', [
                 '../../app'
             ]);
             done();
@@ -21,14 +21,46 @@ describe('ASP.NET MVC generator', function () {
 
     it('creates expected files', function (done) {
         var expected = [
-            // add files you expect to exist here.
             '.jshintrc',
-            '.editorconfig'
+            '.editorconfig',
+            '.gitignore',
+            'Gruntfile.js',
+            'package.json',
+            '.bowerrc',
+            'bower.json',
+            'testapp.sln',
+            'testapp/testapp.csproj',
+            'testapp/favicon.ico',
+            'testapp/Global.asax',
+            'testapp/Global.asax.cs',
+            'testapp/packages.config',
+            'testapp/robots.txt',
+            'testapp/Web.config',
+            'testapp/Web.Debug.config',
+            'testapp/Web.Release.config',
+            'testapp/App_Start/FilterConfig.cs',
+            'testapp/App_Start/RouteConfig.cs',
+            'testapp/Content/main.css',
+            'testapp/Controllers/HomeController.cs',
+            'testapp/Properties/AssemblyInfo.cs',
+            'testapp/Views/_ViewStart.cshtml',
+            'testapp/Views/Web.config',
+            'testapp/Views/Home/Index.cshtml',
+            'testapp/Views/Shared/_Footer.cshtml',
+            'testapp/Views/Shared/_Layout.cshtml',
+            'testapp/Views/Shared/Error.cshtml'          
         ];
-
+        
         helpers.mockPrompt(this.app, {
-            'someOption': true
+            projectName: 'testapp',
+            port: 9000,
+            compass: true,
+            bootstrap: true,
+            compassBootstrap: true,
+            angular: true,
+            modules: []
         });
+        
         this.app.options['skip-install'] = true;
         this.app.run({}, function () {
             helpers.assertFiles(expected);
