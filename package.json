@@ -1,6 +1,6 @@
 {
   "name": "generator-aspnetmvc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A ASP.NET MVC project generator for Yeoman",
   "keywords": [
     "yeoman-generator",

@@ -1,6 +1,6 @@
 # generator-aspnetmvc [![Build Status](https://travis-ci.org/has606/generator-aspnetmvc.png?branch=master)](https://travis-ci.org/has606/generator-aspnetmvc)
 
-A generator for [Yeoman](http://yeoman.io).
+A ASP.NET MVC project generator for [Yeoman](http://yeoman.io).
 
 
 ## Getting Started
