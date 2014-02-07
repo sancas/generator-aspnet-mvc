@@ -4,5 +4,5 @@ node_js:
   - '0.10'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-aspnet-mvc' ]; then cd .. && eval "mv $currentfolder generator-aspnet-mvc" && cd generator-aspnet-mvc; fi
+  - if [ "$currentfolder" != 'generator-aspnetmvc' ]; then cd .. && eval "mv $currentfolder generator-aspnetmvc" && cd generator-aspnetmvc; fi
 
