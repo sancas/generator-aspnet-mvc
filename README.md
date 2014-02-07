@@ -1,4 +1,4 @@
-# generator-aspnetmvc
+# generator-aspnetmvc [![Build Status](https://secure.travis-ci.org/has606/generator-aspnetmvc.png?branch=master)](https://travis-ci.org/has606/generator-aspnetmvc)
 
 A generator for [Yeoman](http://yeoman.io).
 
