@@ -1,24 +1,25 @@
 {
-  "name": "generator-aspnetmvc",
-  "version": "0.1.2",
-  "description": "An ASP.NET MVC project generator for Yeoman",
+  "name": "generator-aspnet-mvc",
+  "version": "1.0.0",
+  "description": "An NET Core ASP.NET MVC project generator for Yeoman",
   "keywords": [
     "yeoman-generator",
     "aspnet",
     "mvc",
     "web",
-    "html"
+    "html",
+    "net-core"
   ],
-  "homepage": "https://github.com/has606/generator-aspnetmvc",
-  "bugs": "https://github.com/has606/generator-aspnetmvc/issues",
+  "homepage": "https://github.com/sancas/generator-aspnet-mvc",
+  "bugs": "https://github.com/sancas/generator-aspnet-mvc/issues",
   "author": {
-    "name": "Hassakarn C.",
-    "url": "https://github.com/has606"
+    "name": "Cristian Sanchez",
+    "url": "https://github.com/sancas"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/has606/generator-aspnetmvc.git"
+    "url": "git://github.com/sancas/generator-aspnet-mvc.git"
   },
   "scripts": {
     "test": "mocha"
@@ -30,7 +31,7 @@
     "mocha": "~1.14.0"
   },
   "peerDependencies": {
-    "yo": ">=1.0.0"
+    "yo": ">=1.x"
   },
   "engines": {
     "node": ">=0.10.0",

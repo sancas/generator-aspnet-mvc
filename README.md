@@ -1,6 +1,6 @@
-# generator-aspnetmvc [![Build Status](https://travis-ci.org/has606/generator-aspnetmvc.png?branch=master)](https://travis-ci.org/has606/generator-aspnetmvc)
+# generator-aspnet-mvc [![Build Status](https://travis-ci.org/has606/generator-aspnetmvc.png?branch=master)](https://travis-ci.org/has606/generator-aspnetmvc)
 
-An ASP.NET MVC project generator for [Yeoman](http://yeoman.io).
+A NET Core ASP.NET MVC project generator for [Yeoman](http://yeoman.io).
 
 
 ## Getting Started
@@ -26,7 +26,7 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 To install generator-aspnetmvc from npm, run:
 
 ```
-$ npm install -g generator-aspnetmvc
+$ npm install -g generator-aspnet-mvc
 ```
 
 If you want to use Compass as a sass compiler:
