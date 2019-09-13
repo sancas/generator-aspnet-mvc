@@ -45,7 +45,7 @@ $ cd YourProject
 Finally, initiate the generator:
 
 ```
-$ yo aspnetmvc
+$ yo aspnet-mvc
 ```
 
 After install, type:
